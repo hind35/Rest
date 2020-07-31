@@ -1,0 +1,62 @@
+@media (min-width: 768px){
+.login form{
+	width: 55% !important;
+}
+.footer .content .right{
+	    right: 8%;
+    position: absolute;
+    }
+    .humnav{
+    	right: 16%;
+    }
+       img.mfp-img{
+		width: 400px !important;
+		height: 400px  !important;
+	}
+}
+@media (max-width: 768px){
+	/*.Search*/
+.Search{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ img.mfp-img{
+    max-width: 50% !important;
+}
+.header .name {
+	font-size: 40px;
+}
+.swiper-container {
+     width: 100% !important;
+}
+
+}
+@media screen and (max-width: 576px){
+.swiper-container {
+    width: 56% !important;
+}
+}
+@media screen and (max-width: 576px){
+	.footer .content {
+	position: relative;
+	    left: 30%;
+}
+.myMeal{
+	   max-width: 75%;
+	}
+	.header .name {
+	font-size: 	30px;
+}
+
+
+.header .navbar {
+	    /*margin-top: 30px;*/
+}
+	.header .links button {
+		margin-bottom: 10px;
+		}
+}
+@media screen and (max-width: 768px){
+	
+	}

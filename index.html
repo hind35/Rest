@@ -1,0 +1,843 @@
+ <!DOCTYPE html>
+<html>
+<head>
+ <title>Restaurant</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!-----font------->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="css/all.min.css">
+   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+   <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/Rstaurent.css">
+  <link rel="stylesheet" type="text/css" href="css/midea.css">
+  <link rel="stylesheet" type="text/css" href="css/hover.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <!-- Slider File -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style type="text/css">
+ html, body {
+      position: relative;
+      height: 100%;
+    }
+ 
+    .swiper-wrapper{
+    	align-items: center;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 385px;
+       padding-left: 8px;
+      padding-right: 8px;
+    }
+    .swiper-slide {
+    	height: 250px !important;
+    	width: 200px;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+          margin-left: -9px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+cursor: grab;
+    }
+    .swiper-slide img{
+    	height: 200px !important;
+    	width: 150px;
+    }
+
+    @media (max-width: 760px) {
+      .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+      }
+
+      .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+      }
+    }
+  </style>
+</style>
+</head>
+<body>
+<div class="header">
+	<div class="navHide">
+					
+	<ul class="nav-links">
+		<div class="hamburger humnav">
+			<div class="hum"></div>
+			<div class="hum"></div>
+			<div class="hum"></div>
+	</div>
+		<li><a href="#" data-value="home">Home</a></li>
+		<li><a href="#" data-value="tody">Today Special</a></li>
+		<li><a href="#" data-value="myfood">Food Menu</a></li>
+		<li><a href="#" data-value="our-servse">Our Services</a></li>
+		<li><a href="#" data-value="to-contact">Contact Us</a></li>
+		<li><a href="#" data-value="about">About Us</a></li>
+	</ul>
+</div>
+	<div class="overlay">
+		<div class="container table">
+			<div class="navbar">
+				<div class="hamburger humheader">
+			<div class="hum"></div>
+			<div class="hum"></div>
+			<div class="hum"></div>
+	</div>	
+				<a href="#"><span class="logo hvr-wobble-horizontal">Koshian</span></a>
+				<img src="images/logo3.jpg">
+					<!-- <span class="links-menu hvr-push">Menu
+						<i class="fa fa-bars fa-lg"></i>
+					</span> -->
+			</div>
+		<div class="table-row">
+			<div class="intro text-center wow fadeIn animated" data-wow-duration=" 1.2s">
+			<div class="name-Rstaurent">
+				<h1 class=" name text-center">Welcome To <span class="main-color">Koshian</span> Restaurant</h1>
+			<div class="links text-center">
+				<button class="to-menu hvr-shutter-out-vertical">Food Menu</button>
+				<button class="contact-us hvr-shutter-out-vertical">Contact Us</button>
+			</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div class="arrow">
+			<a href="#" class="hvr-icon-hang">
+					<i class="fa fa-chevron-down fa-lg hvr-icon"></i>
+				</a>
+		</div>
+	</div>
+</div>
+<!-- end header -->
+<!-- Start specail food -->
+<section class="specail" id="tody">
+	<div class="container">
+		<div class="specail-food wow fadeInDown animated" data-wow-duration="1.5s" data-wow-offset="79">
+			<h2 >Today Special</h2>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+    	
+      <div class="swiper-slide">
+      	<div class="dish text-center">
+				<img src="images/m10.jpg">
+				<h3>Cheese pizza</h3>
+				<div class="prise">
+					<span class="now">$</span>
+					<span class="now">25</span>
+					<span>
+						<span>$</span>
+						<span>40</span>
+					</span>
+				</div>
+			</div>
+  		</div>
+      <div class="swiper-slide">
+      	<div class="dish text-center">
+			<img src="images/m5.jpg">
+			<h3>Jumbo burger </h3>
+			<div class="prise">
+					<span class="now">$</span>
+					<span class="now">30</span>
+					<span>
+						<span>$</span>
+						<span>50</span>
+					</span>
+				</div>
+		</div>
+      </div>
+      <div class="swiper-slide">
+      <div class="dish text-center">
+			<img src="images/m12.jpg">
+			<h3>Chickens</h3>
+			<h4 class="prize3">$20</h4>
+			<div class="prise">
+					<span class="now">$</span>
+					<span class="now">20</span>
+					<span>
+						<span>$</span>
+						<span>37</span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-slide">
+      	<div class="dish text-center">
+				<img src="images/m10.jpg">
+				<h3>Cheese pizza</h3>
+				<h4 class="prize1">$25</h4>
+				<div class="prise">
+					<span class="now">$</span>
+					<span class="now">25</span>
+					<span>
+						<span>$</span>
+						<span>38</span>
+					</span>
+				</div>
+			</div>
+  		</div>
+      <div class="swiper-slide">
+      	<div class="dish text-center">
+				<img src="images/m5.jpg">
+				<h3>Jumbo burger </h3>
+				<h4 class="prize1">$25</h4>
+				<div class="prise">
+					<span class="now">$</span>
+					<span class="now">29</span>
+					<span>
+						<span>$</span>
+						<span>52</span>
+					</span>
+				</div>
+			</div>
+  		</div>
+      <div class="swiper-slide">
+      	<div class="dish text-center">
+			<img src="images/m12.jpg">
+			<h3>Cheese pizza </h3>
+			<h4 class="prize2">$30</h4>
+			<div class="prise">
+					<span class="now">$</span>
+					<span class="now">33</span>
+					<span>
+						<span>$</span>
+						<span>48</span>
+					</span>
+				</div>
+		</div>
+      </div>
+      <div class="swiper-slide">
+      <div class="dish text-center">
+			<img src="images/m1.jpg">
+			<h3>Vegtables pizza</h3>
+			<div class="prise">
+					<span class="now">$</span>
+					<span class="now">30</span>
+					<span>
+						<span>$</span>
+						<span>40</span>
+					</span>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+</div>
+</section>
+<!-- end specail food -->
+<!-- Start Menu Food -->
+<section class="menu-food " id="myfood">
+	<div class="container">
+		<div class="meuns wow zoomIn animated" data-wow-duration="1.5s" >
+		<h3>Food Menu</h3>
+	<div class="container-fluid no-gutter">
+	<div class="menu1">
+			<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/m9.jpg">
+						<img src="images/m9.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Potato Tray</h3>
+								<h4>$100</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+
+				</div>
+		</div>
+	</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/m66.jpg">
+						<img src="images/m66.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Chees Pie</h3>
+									<h4>$80</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+				</div>
+		</div>
+	</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/m12.jpg">
+						<img src="images/m12.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Hamburger</h3>
+								<h4>$50</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+
+				</div>
+		</div>
+	</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/m6.jpg">
+						<img src="images/m6.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Pasty</h3>
+								<h4>$75</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+
+				</div>
+		</div>
+	</div>
+	</div>
+</div>
+		<!-- menu2 -->
+		<div class="menu2">
+	<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/m99.jpg">
+						<img src="images/m99.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Potato Tray</h3>
+									<h4>$45</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+
+				</div>
+		</div>
+	</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/m4.jpg">
+						<img src="images/m4.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Chickens</h3>
+								<h4>$70</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+
+				</div>
+		</div>
+	</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/m9.jpg">
+						<img src="images/m9.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Spaghetti</h3>
+								<h4>$30</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+				</div>
+		</div>
+	</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/m11.jpg">
+						<img src="images/m11.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Feta</h3>
+								<h4>$25</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+
+				</div>
+		</div>
+	</div>
+	</div>
+</div>
+		<!-- menu3 -->
+		<div class="menu3">
+	<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/s1.jpg">
+						<img src="images/s1.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Fruit Cake</h3>
+								<h4>$120</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+				</div>
+		</div>
+	</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/s5.jpg">
+						<img src="images/s5.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Staraberry Cake</h3>
+								<h4>$100</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+				</div>
+		</div>
+	</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/s9.jpg">
+						<img src="images/s9.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Chocolate Cake</h3>
+								<h4>$130</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+
+				</div>
+		</div>
+	</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">	
+				<div class="img-wrapper hind Search">
+					<div class="myMeal">
+					<a href="images/s66.jpg">
+						<img src="images/s66.jpg" class="img-thumbnail">
+						<div class="over">
+							<div class="meal">
+								<div class="conent">
+								<h3>Staraberry Cake</h3>
+								<h4>$55</h4>
+								</div>					
+							</div>
+						</div>
+					</a>
+
+				</div>
+		</div>
+	</div>
+	</div>
+			</div>
+
+		<!-- end meals -->
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="myhide">
+				<button class="sweet text-center upper hvr-push">show more</button>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+	</div>
+</section>
+<!-- End Menu Food -->
+<!-- start servers -->
+	<section class="servers" id="our-servse">
+		<div class="overlay">
+		<div class="container">
+		<div class="row">
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+			<div class="serve">
+				<h3><ion-icon name="duplicate"></ion-icon></h3>
+				<span  class="counter">220</span>
+				<p>Table</p>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+			<div class="serve">
+				<h3><ion-icon name="person"></ion-icon></h3>
+				<span  class="counter">35</span>
+				<p>shafe</p>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+			<div class="serve">
+				<h3><ion-icon name="people"></ion-icon></h3>
+				<span  class="counter">870</span>
+				<p>cleints</p>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+			<div class="serve">
+				<h3><ion-icon name="time"></ion-icon></h3>
+				<span  class="counter">360</span>
+				<p>Day</p>
+			</div>
+		</div>
+	 </div>
+	</div>
+</div>
+</section>
+<!-- end serves -->
+
+<!-- Start Contact -->
+
+<secton class="contact " id="to-contact">
+	<div class="container">
+	<h2>Contact Us</h2>
+	<div class="list">
+		<ul>
+
+<!-- <li class="select filter" data-filter="all">ALL</li> -->
+ 		<li  class="filter active1 hvr-pop" data-filter=".forms">Contact </li>
+		<li class="filter hvr-pop" data-filter=".tables" id="reseve_table">Table Reservation</li>
+	</ul>	
+</div>
+</div>
+<div id="Container" class="containers">
+<div class=" mix forms">
+	<div class="login ">
+	<div class="overlay">
+		<div class="container">
+
+				<div class="myform wow  bounceIn" data-wow-duration="1.5s" data-wow-offset="118">
+					<div class="hello">
+						Say Hello !!
+					</div>
+					<div class="clintInfo">
+				<form>
+					<div class="myinput">
+					<div class="user">	
+					<i class="fa fa-user"></i>
+					<input type="text" name="text" placeholder=" your name"  required>
+					</div>
+					<div class="user">
+					<i class="fa fa-envelope"></i>
+					<input type="email" name="email" placeholder=" hind@gmail.com " required>
+					</div>
+					<div class="messege">
+					<i class="fas fa-pencil-alt"></i>
+					<textarea placeholder=" your messege"></textarea>
+					</div>
+					<button class="send hvr-push">Send</button>
+					</div>	
+				</form>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- start Reseve table  -->
+	<div class=" mix tables">
+	<div class="Reseve-table" id="myReseve">
+		<div class="container">
+			<div class="myfadetable wow  bounceIn" data-wow-duration="1.5s" >
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="tableo">
+								<div class="tableimg">
+									<img src="images/t2.jpg">
+								</div>
+							</div>
+					</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+		<div class="mydata">
+		<div class="tablep">
+			<form ><!-- novalidate -->
+		
+		<div class="data">
+				<div class="info1">
+					<input type="text" name="text" placeholder=" Name*"  required>
+					<i class="fa fa-user"></i>
+				</div>
+				<div class="info1">
+					<input type="time" name="time" placeholder=" Time*" required>
+					<i class="far fa-clock"></i>
+				</div>
+				<div class="info1">
+					<input type="text" name="Guests" placeholder=" Guests*" required id="guests">
+					<i class="fas fa-user-friends"></i>
+				</div>
+			</div>
+	<div class="data">
+				<div class="info2">
+					<input type="date" name="date" placeholder=" Date*" required>
+					<i class="far fa-calendar-alt"></i>
+				</div>
+				<div class="info2">
+					<input type="email" name="text" placeholder=" Email*" required>
+					<i class="fa fa-envelope"></i>
+				</div>
+				<div class="info2">
+					<input type="tel" name="telephone" placeholder=" Phone*" required>
+					<i class="fa fa-phone"></i>
+				</div>
+		</div>
+		<button class="hvr-push">Send</button>
+	</div>
+		
+		</form>
+		</div>
+		</div>
+	</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!-- End Reseve table  -->
+	</div>
+</secton>
+<!-- End Contact -->
+<!-- Start About us -->
+<secton class="about-us" id="about">
+	<div class="container">
+			<h2>About Us</h2>
+	<div class="tab-content">
+	<div id="tab" class="tab-one active">
+			<div class="row">
+		<div class="col-lg-6 col-md-6">	
+			<div class="about">
+			<div class="our-img wow bounceInLeft" data-wow-duration="2s" >
+					<img src="images/m2.jpg">
+				</div>
+			</div>
+		</div>
+			<div class="col-lg-6 col-md-6">	
+			<div class="about">
+				<div class="text wow bounceInRight" data-wow-duration="2s" >
+					<p>
+					Lorem ipsum dolor sit amet .Praesent feugiat eget diam sit amet Mole stie. Curab itur. ut ips biben . nec joeıa us lacinia Ferme ntum ut ips biben . nec joeıa us lacinia Ferme ntum Curab itur. ut ips joeıa us lacinia Ferme ntum nec joeıa .
+					sit amet Mole stie. Curabitur. ut ips biben . nec joeıa us lacinia Fermentum nec joeıa  Mauris at augue libero. Fusce Posuere, sapien necpoır.
+					</p>
+					<button class="ReadUs hvr-push">Read More</button>
+				</div>
+			</div>
+			</div>
+			
+	</div>
+</div>
+		</div>
+	</div>
+	</secton>
+
+<!-- End About us  -->
+
+<!-- Start Our Team -->
+<section class="our-team">
+	<div class="container">
+			<h2>our team</h2>
+							<div class="mymedia">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="Search">
+				<div class="shife wow bounceIn" data-wow-offset="255" data-wow-iteration="2s" data-wow-delay=".5s">
+					<img src="images/sh3.jpg"  class="img-thumbnail">
+					<div class="inner">
+					<div class="info">
+						<h3>Marten Mistre</h3>
+						<div class="team_socail">
+							<a href="#"><i class="fab fa-facebook-f hvr-pop"></i></a>
+							<a href="#"><i class="fab fa-twitter hvr-pop"></i></a>
+							<a href="#"><i class="fab fa-google-plus-g hvr-pop"></i></a>
+	                    </div>
+	                </div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="Search">
+				<div class="shife wow bounceIn" data-wow-offset="255" data-wow-iteration="2s" data-wow-delay="1s">
+					<img src="images/sh7.jpg"  class="img-thumbnail">
+					<div class="inner">
+					<div class="info">
+					<h3>Ran Senshi</h3>
+						<div class="team_socail">
+							<a href="#"><i class="fab fa-facebook-f hvr-pop"></i></a>
+							<a href="#"><i class="fab fa-twitter hvr-pop"></i></a>
+							<a href="#"><i class="fab fa-google-plus-g hvr-pop"></i></a>
+	                    </div>
+	                </div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="Search">
+				<div class="shife wow bounceIn" data-wow-offset="255" data-wow-iteration="2s" data-wow-delay="1.5s">
+					<img src="images/sh6.jpg"  class="img-thumbnail">
+					<div class="inner">
+					<div class="info">
+					<h3>Marten Mistre</h3>
+						<div class="team_socail">
+							<a href="#"><i class="fab fa-facebook-f hvr-pop"></i></a>
+							<a href="#"><i class="fab fa-twitter hvr-pop"></i></a>
+							<a href="#"><i class="fab fa-google-plus-g hvr-pop"></i></a>
+	                    </div>
+	                </div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<div class="Search">
+				<div class="shife wow bounceIn" data-wow-offset="255" data-wow-iteration="2s" data-wow-delay="2s">
+					<img src="images/sh7.jpg"  class="img-thumbnail">
+					<div class="inner">
+					<div class="info">
+					<h3>Ran Senshi</h3>
+						<div class="team_socail">
+							<a href="#"><i class="fab fa-facebook-f hvr-pop"></i></a>
+							<a href="#"><i class="fab fa-twitter hvr-pop"></i></a>
+							<a href="#"><i class="fab fa-google-plus-g hvr-pop"></i></a>
+	                    </div>
+	                </div>
+	            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+<!-- End Our Team -->
+<!-- start footer -->
+<div class="footer" >
+	<div class="container">
+		<div class="content wow fadeInUp animated" data-wow-duration="2s">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="left ">
+				<a href="#">
+					<span><i class="far fa-compass hvr-pop"></i>
+					Our Location</span></a>
+				<a href="#">
+					<span><i class="fas fa-paint-brush hvr-pop"></i>
+					Desing by : hind</span></a>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="right">
+				<a href="#" class="hvr-icon-grow-rotate">
+					<span><i class="fa fa-phone hvr-icon"></i>   0112226188</span></a>
+				<div></div></a>
+				<a href="#"><span><i class="fa fa-envelope hvr-pop"></i> Koshian@gmail.com</span></a>
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+</div>
+<!-- end footer -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+ <script type="text/javascript" src="js/mixitup.min.js"></script>
+ 
+<script type="text/javascript" src="js/Rstaurent.js"></script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+<!-- to count number we shoude write this link -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+<!-- to count number we shoude write this link -->
+<!-- Slider Js -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script>new WOW().init();</script>
+
+		<script type="text/javascript">
+	var hamburger=document.querySelector(".humheader");
+	var hamburgerNav=document.querySelector(".humnav");
+	var navLinks=document.querySelector(".nav-links");
+	var links=document.querySelectorAll(".nav-links li");
+	hamburger.addEventListener("click",()=>{
+		navLinks.classList.toggle("open");
+		links.forEach(link=>{
+			link.classList.toggle("fade");
+		});
+	});
+	hamburgerNav.addEventListener("click",()=>{
+		navLinks.classList.toggle("open");
+		links.forEach(link=>{
+			link.classList.toggle("fade");
+			link.classList.toggle("fadeNav");
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	$(function () {
+  		$('.counter').counterUp({
+  			delay:17,
+  			time:8000
+  		});
+  	});
+</script>
+<script type="text/javascript">
+	
+		$('#myfood').magnificPopup({
+		delegate:'a',
+		type:'image',
+		gallery:{
+			enabled:true
+		}
+	});
+</script>
+</body>
+</html>
